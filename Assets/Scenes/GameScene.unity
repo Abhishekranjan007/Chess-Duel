@@ -5087,6 +5087,8 @@ MonoBehaviour:
   - {fileID: 5108778780221303138, guid: 49c1d84824230894c8a3cd34d9dd8327, type: 3}
   - {fileID: 3980455332526825607, guid: fd83a0b2e80df4d4ca9171438d5b2c4f, type: 3}
   - {fileID: 4559185712558429042, guid: c1f5b8adedc2ea94f9ac69630d158612, type: 3}
+  whiteBoardSprite: {fileID: -7471032346481253075, guid: 9313a7943b43f2b488ce58d88f0a5e12, type: 3}
+  blackBoardSprite: {fileID: -3738069111269574636, guid: 5620b4c789f382143829d5ea94bee21c, type: 3}
   tilePrefab: {fileID: 5585436018763662042, guid: aa9a83d0638f89f4ca5f1a6cf8a31cbe, type: 3}
   tilePrefabdt: {fileID: 5585436018763662042, guid: 2f06bdb5b38286146b34e5f7ba89fa04, type: 3}
   boardParent: {fileID: 1284509110}

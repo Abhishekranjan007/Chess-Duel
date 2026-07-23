@@ -7,7 +7,10 @@ public class BoardFormation : MonoBehaviour
 
     [SerializeField] private SpriteRenderer boardRenderer;
     [Header("Prefabs")]
-    [SerializeField] private GameObject[] prefabs;
+    [SerializeField] private GameObject[] prefabs;    
+
+    [SerializeField] private Sprite whiteBoardSprite;
+    [SerializeField] private Sprite blackBoardSprite;
 
 
     private const int BOARD_WIDTH = 8;
@@ -233,7 +236,24 @@ public class BoardFormation : MonoBehaviour
         return spawnedTile;
     }
 
+    public void SetupBoardSprite()
+    {
+        if (GameManager.Instance.SelectedMode != ChessGameMode.Multiplayer)
+        {
+            boardRenderer.sprite = whiteBoardSprite;
+            return;
+        }
 
+        NetworkGameManager manager = FusionRoomManager.Instance.GetNetworkGameManager();
+
+        if (manager == null)
+            return;
+
+        if (manager.AmIWhite())
+            boardRenderer.sprite = whiteBoardSprite;
+        else
+            boardRenderer.sprite = blackBoardSprite;
+    }
 
     public ChessPiece[,] ChessPieces
     {

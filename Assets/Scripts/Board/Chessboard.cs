@@ -64,6 +64,8 @@ public class Chessboard : MonoBehaviour
     private bool isExecutingRemoteMove = false;
     private PromotionType networkPromotionType = PromotionType.Queen;
 
+    
+
     public bool IsExecutingLocalNetworkMove { get; private set; }
 
 
@@ -251,6 +253,7 @@ public class Chessboard : MonoBehaviour
         currentCamera.transform.rotation = Quaternion.Euler(0, 0, 180);
         backGround.transform.rotation = Quaternion.Euler(0, 0, 180);
         boardFormation.TurnChessPieces();
+        boardFormation.SetupBoardSprite();
     }
 
     private bool CanCurrentPlayerMove()
