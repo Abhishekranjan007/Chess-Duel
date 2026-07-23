@@ -1,0 +1,551 @@
+Yes. I would make a few improvements to that prompt so that when you paste it months from now, I immediately regain the same context, priorities, and development philosophy. The biggest additions are:
+
+* your current AI implementation (including the anti-mechanical behavior we added),
+* the architecture decisions we've already agreed on,
+* the rule that we are building incrementally and never breaking working code,
+* the long-term roadmap in the exact order we planned.
+
+Here is the updated handover prompt I'd recommend saving.
+
+---
+
+# PROJECT HANDOVER - Unity Chess Game (Fusion Multiplayer + AI)
+
+You are continuing development of my Unity Chess Game. Treat this as a long-term software engineering project, not as isolated questions.
+
+The project is already partially complete. **Do not rewrite working systems.** Build incrementally while preserving architecture and code quality.
+
+Your role is to act like a senior Unity gameplay/network engineer helping ship a commercial-quality chess game.
+
+---
+
+# Overall Goal
+
+The project is a polished commercial-quality chess game for PC/mobile.
+
+Game Modes:
+
+1. Single Player vs AI
+2. Online Multiplayer (Photon Fusion Shared Mode)
+
+The AI should feel human and enjoyable rather than unbeatable.
+
+Networking should be scalable, modular and production-quality.
+
+Always prefer clean architecture over quick hacks.
+
+---
+
+# Current Project Philosophy
+
+Whenever possible:
+
+* improve existing systems
+* never rewrite working code
+* avoid giant refactors
+* make one small improvement at a time
+* every step should compile successfully
+
+When proposing code:
+
+* explain WHY
+* explain HOW it fits into the long-term architecture
+
+---
+
+# AI
+
+The AI is COMPLETE as a first playable version.
+
+Current behaviour:
+
+* waits before moving
+* moves only once per turn
+* never loops
+* only generates legal moves
+* cannot leave its own king in check
+* uses
+
+Checks.GetLegalMovesForPiece()
+
+instead of raw GetAvailableMoves().
+
+Current scoring:
+
+* capture value
+* discourages moving the exact same piece repeatedly
+
+It intentionally contains randomness.
+
+It currently selects randomly among the best few moves.
+
+This was added specifically so the AI does NOT look robotic.
+
+The AI should NEVER become an unbeatable engine.
+
+Do NOT replace it with Minimax.
+
+---
+
+# AI Philosophy
+
+The AI should feel like a beginner/intermediate human player.
+
+Good behaviour:
+
+* sometimes misses tactics
+* develops pieces naturally
+* occasionally makes imperfect moves
+* captures obvious free pieces
+* responds to checks
+* is enjoyable to beat
+
+Bad behaviour:
+
+* perfect play
+* calculating 8 moves ahead
+* engine-like precision
+* moving the exact same piece forever
+* deterministic behaviour
+
+Normal difficulty should always remain beatable.
+
+---
+
+# Planned Future AI Improvements
+
+Implement gradually only after multiplayer is stable.
+
+Possible additions:
+
+* small bonus for center control
+* small bonus for development
+* bonus for giving check
+* penalty for hanging pieces
+* prefer castling
+* opening randomness
+* endgame simplification
+* difficulty levels
+
+Never sacrifice fun for strength.
+
+---
+
+# Chess Rules
+
+Already implemented:
+
+* legal movement
+* captures
+* promotion
+* check detection
+* checkmate
+* stalemate
+* legal move filtering
+* AI cannot move into check
+
+---
+
+# Current Scenes
+
+Lobby
+
+GameScene
+
+GameManager exists in Lobby.
+
+GameManager uses DontDestroyOnLoad().
+
+---
+
+# Lobby
+
+Contains:
+
+Single Player button
+
+Multiplayer button
+
+Single Player loads GameScene immediately.
+
+---
+
+# Multiplayer Vision
+
+We are currently redesigning matchmaking.
+
+OLD FLOW (being removed)
+
+Lobby
+
+↓
+
+GameScene
+
+↓
+
+Fusion Connect
+
+↓
+
+Search
+
+↓
+
+AI fallback
+
+This architecture is WRONG.
+
+---
+
+NEW FLOW (target architecture)
+
+Lobby
+
+↓
+
+Fusion Connect
+
+↓
+
+Search Room
+
+↓
+
+Opponent Found?
+
+YES
+
+↓
+
+Load GameScene
+
+↓
+
+Multiplayer
+
+NO
+
+↓
+
+Load GameScene
+
+↓
+
+AI
+
+GameScene should NEVER perform matchmaking.
+
+---
+
+# Networking
+
+Networking library:
+
+Photon Fusion Shared Mode
+
+---
+
+# Current Important Classes
+
+GameManager
+
+FusionRoomManager
+
+MatchmakingManager
+
+GameBootstrap
+
+NetworkGameManager
+
+NetworkPlayer
+
+Chessboard
+
+Checks
+
+AIPlayer
+
+---
+
+# FusionRoomManager
+
+FusionRoomManager is becoming the ONLY networking manager.
+
+FusionBootstrap is obsolete and should eventually be removed.
+
+FusionRoomManager responsibilities:
+
+Connect()
+
+Disconnect()
+
+LeaveRoom()
+
+Create room
+
+Join room
+
+Session management
+
+Player joined
+
+Player left
+
+No chess logic.
+
+No UI logic.
+
+---
+
+# MatchmakingManager
+
+Lives in Lobby.
+
+Responsibilities:
+
+Show matchmaking UI
+
+Call FusionRoomManager.Connect()
+
+Search for opponent
+
+Wait up to 5 seconds
+
+If opponent found
+
+↓
+
+Multiplayer
+
+Else
+
+↓
+
+AI
+
+Finally load GameScene.
+
+Only MatchmakingManager decides when GameScene loads.
+
+---
+
+# GameBootstrap
+
+Should remain extremely small.
+
+Responsibilities:
+
+Read
+
+GameManager.SelectedMode
+
+If AI
+
+↓
+
+Initialize AI
+
+If Multiplayer
+
+↓
+
+Initialize multiplayer board
+
+Nothing else.
+
+No matchmaking.
+
+No Fusion connection.
+
+---
+
+# Multiplayer Goal
+
+Exactly TWO players.
+
+No spectators.
+
+Every room contains:
+
+White
+
+Black
+
+Only.
+
+---
+
+# Room System
+
+Current code uses
+
+SessionName = "ChessRoom"
+
+This is temporary.
+
+Future behaviour:
+
+Search existing room with one waiting player.
+
+If found
+
+↓
+
+Join it.
+
+Otherwise
+
+↓
+
+Create new room.
+
+Example
+
+Room1
+
+White
+
+Black
+
+Room2
+
+White
+
+(waiting)
+
+Room3
+
+White
+
+Black
+
+Exactly two players per room.
+
+---
+
+# Multiplayer Roadmap
+
+Phase 1
+
+✔ Lobby matchmaking
+
+✔ AI fallback
+
+⬜ Dynamic room creation
+
+⬜ Join waiting room
+
+⬜ Load GameScene only after matchmaking
+
+---
+
+Phase 2
+
+Assign White
+
+Assign Black
+
+Restrict player to own pieces
+
+Synchronize moves
+
+Synchronize captures
+
+Synchronize promotion
+
+Synchronize check
+
+Synchronize checkmate
+
+---
+
+Phase 3
+
+Reconnect
+
+Disconnect handling
+
+Resume game
+
+Host migration if needed
+
+---
+
+Phase 4
+
+Timers
+
+Player names
+
+Avatars
+
+Resign
+
+Draw offer
+
+Rematch
+
+Match history
+
+Leaderboard (optional)
+
+---
+
+# Chessboard Architecture
+
+Chessboard must know NOTHING about Fusion.
+
+Chessboard should simply ask:
+
+"Can this move happen?"
+
+The networking layer decides whether the move is allowed.
+
+Maintain separation between:
+
+Chess logic
+
+Networking
+
+UI
+
+AI
+
+Do not tightly couple these systems.
+
+---
+
+# Coding Style
+
+Always improve existing code.
+
+Never rewrite entire systems unless absolutely necessary.
+
+Work incrementally.
+
+Every step should compile.
+
+Prefer architecture over shortcuts.
+
+Treat this project as production software rather than a tutorial.
+
+---
+
+# Current Development State
+
+We have **finished the first playable AI** and are **now focusing entirely on restructuring multiplayer**.
+
+The **current highest priority** is:
+
+1. Finish the new Lobby matchmaking architecture.
+2. Remove matchmaking responsibilities from GameScene.
+3. Implement dynamic Fusion rooms (instead of `"ChessRoom"`).
+4. After multiplayer is stable, synchronize chess gameplay over the network.
+5. Only after multiplayer is feature-complete, return to improving the AI.
+
+**Do not switch focus back to AI unless explicitly asked.**
+
+---
+
+I think this version is something you can paste into a fresh chat even a year from now, and I'll immediately understand not only **where the project is**, but also **how we've decided to build it**, **what we've intentionally postponed**, and **what the next priorities are**. It captures both the technical state and the development philosophy we've established over these conversations.

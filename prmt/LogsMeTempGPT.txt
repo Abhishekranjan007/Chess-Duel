@@ -1,0 +1,74 @@
+For windows build
+my logs are as follows - what i did was clcik multiplayer button on unity editor client first
+the clicked ont he windows build client's multiplayer button, the multiplayer or chess gamescence 
+opened in both windows client and unity editor client but in the windows client the gamescene 
+closed after 1-2 seconds and I was back on lobby scene with the the sprite image in the background
+which is Associated with the NetworkPlayer prefab( I am attaching the screenshot of windows client
+below in the prompt)
+[Fusion] Waiting for connection request
+Connecting to Fusion...
+<color=#144078>[Fusion]</color> Invalid TickRate. Shared Mode started with TickRate in NetworkProjectConfig set to:
+[ClientTickRate = 64, ClientSendRate = 32, ServerTickRate = 64, ServerSendRate = 32]
+Overriding with Shared Mode TickRate:
+[ClientTickRate = 32, ClientSendRate = 16, ServerTickRate = 32, ServerSendRate = 16].
+<color=#144078>[Fusion]</color> adding player [Player:2]
+[Fusion] Fusion Connected
+[Fusion] Player Joined : [Player:2]
+[Fusion] Player Joined : [Player:1]
+Fusion Connected.
+Opponent Found!
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 42.406000 ms
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3069.
+Total: 9.637700 ms (FindLiveObjects: 0.220200 ms CreateObjectMapping: 0.131400 ms MarkObjects: 9.193900 ms  DeleteObjects: 0.091500 ms)
+
+Starting Multiplayer
+List Hash Awake = 52689372
+Selected Mode = Multiplayer
+Spawned | StateAuthority=[Player:1] | InputAuthority=[Player:1] | LocalPlayer=[Player:2]
+Spawned GM | HasStateAuthority=False | HasInputAuthority=False | IsProxy=True
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 10.510800 ms
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 2738.
+Total: 29.489800 ms (FindLiveObjects: 0.668500 ms CreateObjectMapping: 0.844500 ms MarkObjects: 27.767200 ms  DeleteObjects: 0.208700 ms)
+
+Spawned | StateAuthority=[Player:1] | InputAuthority=[Player:1] | LocalPlayer=[Player:2]
+Spawned GM | HasStateAuthority=False | HasInputAuthority=False | IsProxy=True
+Spawned GM | HasStateAuthority=False | HasInputAuthority=False | IsProxy=True
+Spawned | StateAuthority=[Player:1] | InputAuthority=[Player:None] | LocalPlayer=[Player:2]
+Connecting to Fusion...
+<color=#144078>[Fusion]</color> Failed: NetworkRunner should not be reused.
+[Fusion] Fusion Failed : OperationCanceled
+<color=#144078>[Fusion]</color> Left Room
+<color=#144078>[Fusion]</color> Disconnected: ApplicationQuit
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+
+
+
+for unity editor client
+[Fusion] Waiting for connection request
+Starting Multiplayer
+Waiting for Fusion connection...
+Selected Mode = Multiplayer
+[Fusion] adding player [Player:1]
+[Fusion] Fusion Connected
+[Fusion] Player Joined : [Player:1]
+Spawned GM | HasStateAuthority=True | HasInputAuthority=False | IsProxy=False
+[Fusion] NetworkGameManager Spawned
+[Fusion] [Player:1] assigned WHITE
+[Fusion] Spawning NetworkPlayer for [Player:1]
+Spawned | StateAuthority=[Player:1] | InputAuthority=[Player:1] | LocalPlayer=[Player:1]
+Fusion Connected. Searching for opponent...
+Matchmaking finished
+Players Found = 1
+NO PLAYER FOUND -> START AI MATCH
+Final Mode = VsAI
+
+
+
+

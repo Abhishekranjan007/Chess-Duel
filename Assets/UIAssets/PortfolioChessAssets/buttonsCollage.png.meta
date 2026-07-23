@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 939a7e6edebe6e54d90a8dd26a916aea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5277679218638813165
+    second: buttonsCollage_0
+  - first:
+      213: 1207075950601400186
+    second: buttonsCollage_1
+  - first:
+      213: 2714542313952073471
+    second: buttonsCollage_2
+  - first:
+      213: 309858349843819125
+    second: buttonsCollage_3
+  - first:
+      213: 667697549267062380
+    second: buttonsCollage_4
+  - first:
+      213: -4997877627621344400
+    second: buttonsCollage_5
+  - first:
+      213: 8586044477189801935
+    second: buttonsCollage_6
+  - first:
+      213: 5607014809808512844
+    second: buttonsCollage_7
+  - first:
+      213: -1151735353555243234
+    second: buttonsCollage_8
+  - first:
+      213: -6940772167577402215
+    second: buttonsCollage_9
+  - first:
+      213: 6305293793861887821
+    second: buttonsCollage_10
+  - first:
+      213: -2205688126230363775
+    second: buttonsCollage_11
+  - first:
+      213: -6473257943949974362
+    second: buttonsCollage_12
+  - first:
+      213: -3639670562463643032
+    second: buttonsCollage_13
+  - first:
+      213: -7276898748758226337
+    second: buttonsCollage_14
+  - first:
+      213: 9064352033048113913
+    second: buttonsCollage_15
+  - first:
+      213: -7680030470690773751
+    second: buttonsCollage_16
+  - first:
+      213: 7895933936500971347
+    second: buttonsCollage_17
+  - first:
+      213: -1583297971410155637
+    second: buttonsCollage_18
+  - first:
+      213: -1163170524461519200
+    second: buttonsCollage_19
+  - first:
+      213: 960470986894713105
+    second: buttonsCollage_20
+  - first:
+      213: -8319340410514236415
+    second: buttonsCollage_21
+  - first:
+      213: 3354922740265672879
+    second: buttonsCollage_22
+  - first:
+      213: 9073542599362089320
+    second: buttonsCollage_23
+  - first:
+      213: -7096720062279775694
+    second: buttonsCollage_24
+  - first:
+      213: -5740340485006817073
+    second: buttonsCollage_25
+  - first:
+      213: 6579559365743941312
+    second: buttonsCollage_26
+  - first:
+      213: -9157244662325704344
+    second: buttonsCollage_27
+  - first:
+      213: 2886453960076079464
+    second: buttonsCollage_28
+  - first:
+      213: 921179997380885146
+    second: buttonsCollage_29
+  - first:
+      213: -6252744293627367956
+    second: buttonsCollage_30
+  - first:
+      213: 1085297534625950389
+    second: buttonsCollage_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: buttonsCollage_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1536
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318829686bae1c6b0800000000000000
+      internalID: -5277679218638813165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 53
+        width: 636
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f63848e2560c010800000000000000
+      internalID: 1207075950601400186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 246
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff651ee2addfba520800000000000000
+      internalID: 2714542313952073471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 85
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a21290786dc4400800000000000000
+      internalID: 309858349843819125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 79
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e46792263244900800000000000000
+      internalID: 667697549267062380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 60
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07bf1ce07c8f3aab0800000000000000
+      internalID: -4997877627621344400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 44
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc74a9016f1c72770800000000000000
+      internalID: 8586044477189801935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 21
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47adf4234e10dd40800000000000000
+      internalID: 5607014809808512844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_8
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 11
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1fa4105cc63400f0800000000000000
+      internalID: -1151735353555243234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 5
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99481a4cc7c6daf90800000000000000
+      internalID: -6940772167577402215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47ec937c47e08750800000000000000
+      internalID: 6305293793861887821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 230
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1810ebed552d361e0800000000000000
+      internalID: -2205688126230363775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_12
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4e26f523e5a26a0800000000000000
+      internalID: -6473257943949974362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_13
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 52
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a88e048ea4d7dc0800000000000000
+      internalID: -3639670562463643032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_14
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 238
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a08c58423430b90800000000000000
+      internalID: -7276898748758226337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_15
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 220
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f23ce8262c0bcd70800000000000000
+      internalID: 9064352033048113913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_16
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 76
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905ec4a3afc0b6590800000000000000
+      internalID: -7680030470690773751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_17
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 53
+        width: 371
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357971fa41ef39d60800000000000000
+      internalID: 7895933936500971347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_18
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 88
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87408832eef60ae0800000000000000
+      internalID: -1583297971410155637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_19
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 84
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae244c12969bdfe0800000000000000
+      internalID: -1163170524461519200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_20
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 85
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111ade61647445d00800000000000000
+      internalID: 960470986894713105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_21
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 77
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c1fb179f3cb8c80800000000000000
+      internalID: -8319340410514236415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_22
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 24
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa06a6605741f8e20800000000000000
+      internalID: 3354922740265672879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_23
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 87
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8611a51abe2bbed70800000000000000
+      internalID: 9073542599362089320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_24
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 231
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a0d6114b2638d90800000000000000
+      internalID: -7096720062279775694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_25
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 39
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc800651eb63650b0800000000000000
+      internalID: -5740340485006817073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_26
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 23
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c613c5126a4f4b50800000000000000
+      internalID: 6579559365743941312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_27
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 234
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8690cbc2f7eeae080800000000000000
+      internalID: -9157244662325704344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_28
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 89
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861bad6659ebe0820800000000000000
+      internalID: 2886453960076079464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_29
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 82
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a3516b350b8cc00800000000000000
+      internalID: 921179997380885146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_30
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced6df2813ac939a0800000000000000
+      internalID: -6252744293627367956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonsCollage_31
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 77
+        width: 343
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5baacfa8b50cf0f00800000000000000
+      internalID: 1085297534625950389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      buttonsCollage_0: -5277679218638813165
+      buttonsCollage_1: 1207075950601400186
+      buttonsCollage_10: 6305293793861887821
+      buttonsCollage_11: -2205688126230363775
+      buttonsCollage_12: -6473257943949974362
+      buttonsCollage_13: -3639670562463643032
+      buttonsCollage_14: -7276898748758226337
+      buttonsCollage_15: 9064352033048113913
+      buttonsCollage_16: -7680030470690773751
+      buttonsCollage_17: 7895933936500971347
+      buttonsCollage_18: -1583297971410155637
+      buttonsCollage_19: -1163170524461519200
+      buttonsCollage_2: 2714542313952073471
+      buttonsCollage_20: 960470986894713105
+      buttonsCollage_21: -8319340410514236415
+      buttonsCollage_22: 3354922740265672879
+      buttonsCollage_23: 9073542599362089320
+      buttonsCollage_24: -7096720062279775694
+      buttonsCollage_25: -5740340485006817073
+      buttonsCollage_26: 6579559365743941312
+      buttonsCollage_27: -9157244662325704344
+      buttonsCollage_28: 2886453960076079464
+      buttonsCollage_29: 921179997380885146
+      buttonsCollage_3: 309858349843819125
+      buttonsCollage_30: -6252744293627367956
+      buttonsCollage_31: 1085297534625950389
+      buttonsCollage_4: 667697549267062380
+      buttonsCollage_5: -4997877627621344400
+      buttonsCollage_6: 8586044477189801935
+      buttonsCollage_7: 5607014809808512844
+      buttonsCollage_8: -1151735353555243234
+      buttonsCollage_9: -6940772167577402215
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

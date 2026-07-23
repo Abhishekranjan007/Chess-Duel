@@ -1,0 +1,60 @@
+using UnityEngine;
+
+public static class Constants
+{
+    public static string LastBoardState = "LastBoardState";
+    public static string TimerOne = "timerOne";
+    public static string TimerTwo = "timerTwo";
+    public static string Player1 = "player1";
+    public static string Player2 = "player2";
+    public static string Timer1 = "timer1";
+    public static string Timer2 = "timer2";
+    public static string TimerM1 = "timerM1";
+    public static string TimerM2 = "timerM2";
+    public static string WhitePlayer = "WhitePlayer";
+    public static string BlackPlayer = "BlackPlayer";
+    public static string OwnUid = "OwnUid";
+    public static string OppUid = "OppUid";
+    public static string ORoom = "ORoom";
+    public static string OppName = "OppName";
+    public static string OwnName = "OwnName";
+    public static string PlayerName = "plName";
+    public static string You = "You";
+    public static string GuestPlayer = "Player";
+
+    public static string Uid = "Uid";
+    public static string WhiteChessManKilled = "WhiteChessManKilled";
+    public static string BlackChessManKilled = "BlackChessManKilled";
+    public static string WhitekingmovedFlag = "whitekingmovedFlag";
+    public static string WhiterookleftmovedFlag = "whiterookleftmovedFlag";
+    public static string WhiterookrightmovedFlag = "whiterookrightmovedFlag";
+    public static string BlackkingmovedFlag = "blackkingmovedFlag";
+    public static string BlackrookleftmovedFlag = "blackrookleftmovedFlag";
+    public static string BlackrookrightmovedFlag = "blackrookrightmovedFlag";
+    public static string SpecRoom = "SpecRoom";
+    public static string SpecBoardState = "SpecBoardState";
+    public static string SpecKilledWh = "SpecKilledWh";
+    public static string SpecKilledBl = "SpecKilledBl";
+    public static string SpecWhiteTime = "SpecWhiteTime";
+    public static string SpecBlackTime = "SpecBlackTime";
+    public static string SpecTurn = "SpecTurn";
+    public static string SpecMove = "SpecMove";
+    public static string SpecAllMove = "SpecAllMove";
+    public static string Spectator = "Spectator";
+    public static string ActiveTimer = "activeTimer";
+    public static string Device = "Device";
+    public static string Mobile = "mobile";
+    public static string Tab = "tab";
+    public static string Des = "des";
+    public static string ChessPlane = "ChessPlane";
+    public static string UI = "UI";
+    public static string Turn = "turn";
+    public static string Moves = "Moves";
+    public static string Completed = "Completed";
+    public static string Draw = "Draw";
+    public static string TournamentId = "TournamentId";
+    public static string RoomTimeId = "RoomTimeId";
+    public static string OfflineText = "You are offline!";
+    public static string CheckInternet = "Check Internet";
+    public static string OpponentOfflineText = "Opponent Offline!";
+}
