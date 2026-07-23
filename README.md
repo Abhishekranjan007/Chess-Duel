@@ -26,21 +26,29 @@ Chess Duel is a complete chess game built with Unity 6.
 
 ### Lobby
 
-(Add screenshot)
+![Lobby](Images/Lobby/1.png)
 
 ### Multiplayer
 
-(Add screenshot)
+![Multiplayer](Images/Multiplayer/2.png)
 
 ### Promotion
 
-(Add screenshot)
+![Promotion](Images/Promotion/5.png)
+
+### Checkmate
+
+![Checkmate](Images/Checkmate/6.png)
+
+### vsAI
+
+![vsAI](Images/vsAI/4.png)
 
 ## Download
 
 Play the latest version on itch.io:
 
-(Add your itch.io link)
+[▶ Play Chess Duel]https://abhishekranjan007.itch.io/chess-duel
 
 ## License
 
