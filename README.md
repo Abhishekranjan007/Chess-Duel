@@ -26,23 +26,23 @@ Chess Duel is a complete chess game built with Unity 6.
 
 ### Lobby
 
-![Lobby](Images/Lobby/1.png)
+![Lobby](Assets/Images/Lobby/1.png)
 
 ### Multiplayer
 
-![Multiplayer](Images/Multiplayer/2.png)
+![Multiplayer](Assets/Images/Multiplayer/2.png)
 
 ### Promotion
 
-![Promotion](Images/Promotion/5.png)
+![Promotion](Assets/Images/Promotion/5.png)
 
 ### Checkmate
 
-![Checkmate](Images/Checkmate/6.png)
+![Checkmate](Assets/Images/Checkmate/6.png)
 
 ### vsAI
 
-![vsAI](Images/vsAI/4.png)
+![vsAI](Assets/Images/vsAI/4.png)
 
 ## Download
 
