@@ -36,7 +36,7 @@ public class MatchmakingManager : MonoBehaviour
 
         //Debug.Log("Fusion Connected.");
 
-        float timer = 15f;
+        float timer = 5f;
 
         while (timer > 0)
         {
